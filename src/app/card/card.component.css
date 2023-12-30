@@ -1,0 +1,14 @@
+.card-container {
+  border: 0;
+}
+
+.tag {
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+  margin: 4px;
+}
+
+.button-text {
+  font-size: 12px;
+}

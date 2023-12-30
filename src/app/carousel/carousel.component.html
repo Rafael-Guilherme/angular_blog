@@ -1,25 +1,27 @@
-<c-carousel [wrap]="false">
-  <c-carousel-indicators></c-carousel-indicators>
-  <c-carousel-inner>
-    <c-carousel-item *ngFor="let slide of slides">
-      <img
-        [src]="slide.src"
-        alt="{{slide.title}}"
-        class="d-block w-100"
-        loading="lazy"
-      />
-      <c-carousel-caption class="d-none d-md-block text-start custom-height">
-        <button type="button" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Javascript">
-          Javascript
-        </button>
-        <h3>{{slide.title}}</h3>
-        <div class="d-flex">
-          <p class="me-2">Data -</p>
-          <p>{{slide.subtitle}}</p>
-        </div>
-      </c-carousel-caption>
-    </c-carousel-item>
-  </c-carousel-inner>
-  <!-- <c-carousel-control caption="Previous" direction="prev"></c-carousel-control>
-  <c-carousel-control caption="Next" direction="next"></c-carousel-control> -->
-</c-carousel>
+<div class="full-height-container">
+  <c-carousel [wrap]="false" class="slider-size">
+    <c-carousel-indicators></c-carousel-indicators>
+    <c-carousel-inner>
+      <c-carousel-item *ngFor="let slide of slides">
+        <img
+          [src]="slide.src"
+          alt="{{slide.title}}"
+          class="d-block w-100"
+          loading="lazy"
+        />
+        <c-carousel-caption class="d-none d-md-block text-start custom-height">
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Javascript">
+            Javascript
+          </button>
+          <h3>{{slide.title}}</h3>
+          <div class="d-flex">
+            <p class="me-2">Data -</p>
+            <p>{{slide.subtitle}}</p>
+          </div>
+        </c-carousel-caption>
+      </c-carousel-item>
+    </c-carousel-inner>
+    <!-- <c-carousel-control caption="Previous" direction="prev"></c-carousel-control>
+    <c-carousel-control caption="Next" direction="next"></c-carousel-control> -->
+  </c-carousel>
+</div>

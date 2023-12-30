@@ -1,3 +1,12 @@
+.full-height-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider-size {
+  height: 100vh;
+}
+
 h3 {
   color: white;
   font-size: 48px;
@@ -9,5 +18,5 @@ p {
 }
 
 .custom-height {
-  height: 30%;
+  height: 40%;
 }
