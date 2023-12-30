@@ -1,0 +1,13 @@
+h3 {
+  color: white;
+  font-size: 48px;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+}
+
+.custom-height {
+  height: 30%;
+}

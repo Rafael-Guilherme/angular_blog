@@ -4,14 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   standalone: true,
   imports: [],
-  template: `
-    <section>
-      <form>
-        <input type="text" placeholder="Filter by city">
-        <button type="button">Search</button>
-      </form>
-    </section>
-  `,
+  templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
