@@ -1,0 +1,48 @@
+section {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.card-container {
+  border: 0;
+}
+
+.tag {
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+  margin: 4px;
+}
+
+.button-text {
+  font-size: 12px;
+}
+
+.card-body {
+  color: white;
+}
+
+.card-date {
+  font-size: 12px;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.card-text {
+  font-size: 14px;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}

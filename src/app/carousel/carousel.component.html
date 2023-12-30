@@ -4,9 +4,8 @@
     <c-carousel-inner>
       <c-carousel-item *ngFor="let slide of slides">
         <img
-          [src]="slide.src"
+          [src]="isSmallScreen() ? slide.srcSmall : slide.src"
           alt="{{slide.title}}"
-          class="d-block w-100"
           loading="lazy"
         />
         <c-carousel-caption class="d-none d-md-block text-start custom-height">

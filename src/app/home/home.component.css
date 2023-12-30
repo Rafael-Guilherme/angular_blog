@@ -13,6 +13,7 @@ ul {
 
 .list-topics {
   display: flex;
+  flex-wrap: wrap;
 }
 
 li {
@@ -20,6 +21,10 @@ li {
   margin-right: 16px;
   font-size: 14px;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 a {
@@ -28,4 +33,36 @@ a {
 
 .active {
   color: orange;
+}
+
+.img-container {
+  background-image: url('../../assets/img/react.jpg');
+  background-size: cover;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.button-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.img-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 24px 0 16px;
+}
+
+.img-description {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.img-data {
+  font-size: 14px;
 }
