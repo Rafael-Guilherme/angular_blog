@@ -2,6 +2,10 @@ nav {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 16px;
   transition: background-color 0.3s;
+
+  @media (max-width: 991px) {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }
 
 a {

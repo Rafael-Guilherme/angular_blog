@@ -1,5 +1,5 @@
 .full-height-container {
-  height: 100vh;
+  height: 680px;
   overflow: hidden;
 
   @media (max-width: 992px) {
@@ -14,6 +14,7 @@
 img {
   display: block;
   height: 100%;
+  object-fit: cover;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -22,7 +23,7 @@ img {
 }
 
 .slider-size {
-  height: 100vh;
+  height: 680px;
 
   @media (max-width: 992px) {
     height: 80vh;
@@ -52,7 +53,7 @@ p {
 }
 
 .custom-height {
-  height: 40%;
+  height: 60%;
 
   @media (max-width: 992px) {
     height: 60%;

@@ -18,11 +18,6 @@ export const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: '',
-    redirectTo: '/',
-    pathMatch: 'full'
-  },
-  {
     path: '**',
     component: PageNotFoundComponent
   }
