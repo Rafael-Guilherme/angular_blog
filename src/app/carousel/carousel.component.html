@@ -4,18 +4,18 @@
     <c-carousel-inner>
       <c-carousel-item *ngFor="let slide of slides">
         <img
-          [src]="isSmallScreen() ? slide.srcSmall : slide.src"
+          [src]="isSmallScreen() ? slide.imageSmall : slide.imageLarge"
           alt="{{slide.title}}"
           loading="lazy"
         />
         <c-carousel-caption class="d-none d-md-block text-start custom-height">
           <button type="button" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Javascript">
-            Javascript
+            {{slide.category}}
           </button>
           <h3>{{slide.title}}</h3>
           <div class="d-flex">
             <p class="me-2">Data -</p>
-            <p>{{slide.subtitle}}</p>
+            <p>{{slide.description}}</p>
           </div>
         </c-carousel-caption>
       </c-carousel-item>
