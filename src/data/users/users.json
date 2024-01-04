@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andreia",
+      "username": "Exploradora aventureira",
+      "photo": "../../assets/imgPosts/usersPhoto/andreia.jpg",
+      "description": "Aventureira apaixonada por explorar destinos remotos e compartilhar histórias emocionantes."
+    },
+    {
+      "id": 2,
+      "name": "Daniel",
+      "username": "Viajante Cultural",
+      "photo": "../../assets/imgPosts/usersPhoto/daniel.jpg",
+      "description": "Explorador de culturas ao redor do mundo, sempre em busca de experiências enriquecedoras."
+    },
+    {
+      "id": 3,
+      "name": "Italo",
+      "username": "Tecnológico Inovador",
+      "photo": "../../assets/imgPosts/usersPhoto/italo.jpg",
+      "description": "Entusiasta da tecnologia e inovação, compartilhando as últimas tendências e avanços tecnológicos."
+    },
+    {
+      "id": 4,
+      "name": "Jessica",
+      "username": "Gourmet Vegetariana",
+      "photo": "../../assets/imgPosts/usersPhoto/jessica.jpg",
+      "description": "Amante da alta gastronomia vegetariana, desbravando sabores e criando experiências culinárias únicas."
+    }
+  ]
+}
