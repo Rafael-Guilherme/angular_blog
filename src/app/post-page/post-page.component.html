@@ -1,1 +1,17 @@
-<p>post-page works!</p>
+ <div class="d-flex flex-column align-items-center justify-content-center container post-container" *ngIf="posts.length === 1; else noPosts">
+  <img class="img-post" src="{{ posts[0].imageLarge }}" alt="{{ posts[0].title }}">
+  <div class="container mt-5">
+    <h2 class="mb-4">{{ posts[0].title }}</h2>
+    <p *ngFor="let content of posts[0].content">
+      {{ content }}
+    </p>
+    <div class="d-flex justify-content-between mt-5 mb-5">
+      <div>Usuário 1</div>
+      <div>{{getDateService().formatCreatedAt(posts[0].createdAt)}}</div>
+    </div>
+  </div>
+ </div>
+
+ <ng-template #noPosts>
+  <p>No posts available.</p>
+ </ng-template>

@@ -8,9 +8,6 @@
         <a (click)="filterByCategory(category)">{{category}}</a>
       </li>
     </div>
-    <li [class.active]="activeCategory === 'Ver todos'">
-      <a (click)="filterByCategory('Ver todos')">Ver todos</a>
-    </li>
   </ul>
 <div class="row row-cols-1 row-cols-md-4 g-3">
   <div class="col" *ngFor="let card of cards">
@@ -21,13 +18,14 @@
         alt={{card.title}}
         loading="lazy"
       />
-      <div class="card-img-overlay tag">
-        <button type="button" class="btn btn-outline-light button-text">{{card.category}}</button>
+      <div class="tag">
+        <div>{{getDateService().formatCreatedAt(card.createdAt)}}</div>
+        <button type="button" class="btn btn-light button-text">{{card.category}}</button>
       </div>
-      <div class="card-body">
-        <p>30.12.2023</p>
+      <div class="card-box">
         <h5 class="card-title">{{card.title}}</h5>
         <p class="card-text">{{card.description}}</p>
+        <a class="card-link" [routerLink]="['/post-page', card.id]">Leia mais</a>
       </div>
     </div>
   </div>

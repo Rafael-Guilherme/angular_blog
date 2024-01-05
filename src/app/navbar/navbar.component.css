@@ -5,6 +5,7 @@ nav {
 
   @media (max-width: 991px) {
     background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
   }
 }
 

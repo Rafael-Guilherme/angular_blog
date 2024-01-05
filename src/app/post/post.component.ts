@@ -1,19 +1,19 @@
-import { NgFor } from '@angular/common'
 import { Component } from '@angular/core';
+import { NgFor } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
+import postsData from '../../data/posts/posts.json';
 import { DateService } from '../../service/date.service';
-import postsData from '../../data/posts/posts.json'
 
 @Component({
-  selector: 'app-card',
+  selector: 'app-post',
   standalone: true,
   imports: [NgFor, RouterLink],
-  templateUrl: './card.component.html',
-  styleUrl: './card.component.css'
+  templateUrl: './post.component.html',
+  styleUrl: './post.component.css'
 })
-export class CardComponent {
-  allCards: any[] = postsData.posts;
-  cards: any[] = this.allCards;
+export class PostComponent {
+  allPosts: any[] = postsData.posts
+  posts: any[] = this.allPosts
   activeCategory: string = 'Todas';
 
   constructor(private router: Router, private dateService: DateService) {}
@@ -24,14 +24,14 @@ export class CardComponent {
 
   filterByCategory(category: string): void {
     if (category === 'Todas') {
-      this.cards = this.allCards
+      this.posts = this.allPosts
     } else {
-      this.cards = this.allCards.filter(card => card.category === category)
+      this.posts = this.allPosts.filter(post => post.category === category)
     }
   }
 
   uniqueCategories(): string[] {
-    return Array.from(new Set(this.allCards.map(card => card.category)));
+    return Array.from(new Set(this.allPosts.map(post => post.category)));
   }
 
   getDateService(): DateService {

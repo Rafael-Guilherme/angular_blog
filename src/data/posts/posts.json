@@ -10,7 +10,7 @@
       "createdAt": "2023-01-01T08:00:00Z",
       "updatedAt": null,
       "description": "Uma incrível jornada pelas altas montanhas, explorando paisagens deslumbrantes.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Prepare-se para uma experiência extraordinária que transcende as alturas e desafia os limites da aventura.Aventura nas Montanhas é mais do que uma simples jornada; é uma imersão nas grandiosas elevações da natureza, uma odisseia que desperta a alma e deixa marcas indeléveis na memória.",
         "Parta conosco nessa incrível jornada pelas altas montanhas, onde o ar rarefeito e puro se mistura com a emoção de explorar paisagens deslumbrantes.Cada passo é uma conquista, e cada vista é um espetáculo que alimenta a sede por desafios e descobertas.",
@@ -25,12 +25,12 @@
       "userId": 2,
       "imageLarge": "../../assets/imgPosts/floresta_tropical.jpg",
       "imageSmall": "../../assets/imgPosts/floresta_tropical.jpg",
-      "title": "Desbravando a Floresta Tropical",
+      "title": "Desbravando a floresta",
       "readingTime": "12 minutos",
       "createdAt": "2023-01-15T10:30:00Z",
       "updatedAt": null,
       "description": "Uma expedição emocionante pela densa floresta tropical, cheia de vida selvagem.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Bem-vindo à selva exuberante e repleta de vida, onde cada passo é uma jornada para o desconhecido.Nossa expedição pela densa floresta tropical é uma emocionante odisseia, uma oportunidade única para explorar os segredos bem guardados deste ecossistema vibrante.",
         "Emoção em Cada Trilha:Cada trilha traçada nesta jornada é uma promessa de descobertas emocionantes.Entre árvores majestosas e uma vegetação exuberante, a floresta tropical revela sua verdadeira essência, convidando-nos a mergulhar em um mundo de biodiversidade incomparável.",
@@ -50,7 +50,7 @@
       "createdAt": "2023-02-01T14:45:00Z",
       "updatedAt": null,
       "description": "Explore as profundezas de cavernas misteriosas e descubra seus segredos ocultos.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Bem-vindo a uma jornada única e emocionante pelo reino das Cavernas Misteriosas.Prepare-se para explorar as profundezas subterrâneas e desvendar os segredos ocultos que residem nas entranhas da terra.",
         "Essas maravilhas naturais, muitas vezes escondidas da luz do dia, oferecem um convite irresistível à curiosidade e à aventura. Ao adentrar esses corredores escuros e intrincados, somos transportados para um mundo totalmente diferente, repleto de formações rochosas intrigantes, estalactites gotejantes e estalagmites imponentes.",
@@ -70,7 +70,7 @@
       "createdAt": "2023-02-15T12:00:00Z",
       "updatedAt": null,
       "description": "Enfrente trilhas desafiadoras e sinta a adrenalina em cada passo.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Embarque conosco em uma emocionante aventura através das trilhas desafiadoras, onde cada passo é uma experiência única e a adrenalina é a companheira constante. Nestas sendas intrépidas, o desafio se entrelaça com a beleza da natureza, proporcionando uma experiência que transcende os limites do comum.",
         "O rugido do vento nas altas montanhas e o murmúrio dos riachos cristalinos irão acompanhá-lo enquanto enfrenta terrenos íngremes, rochosos e, por vezes, imprevisíveis. Cada curva revela um novo panorama de deslumbrantes paisagens naturais, criando um cenário que desafia tanto a sua resistência física quanto a sua capacidade de apreciar a beleza selvagem e intocada.",
@@ -90,7 +90,7 @@
       "createdAt": "2023-03-01T08:30:00Z",
       "updatedAt": null,
       "description": "Aventura congelante pelos vastos campos de gelo do Ártico.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Expedição Polar: Aventura Congelante nos Campos de Gelo do Ártico",
         "Embarque conosco em uma jornada épica pela vastidão implacável dos campos de gelo do Ártico. Nossa 'Expedição Polar' oferece uma experiência única, mergulhando você nas maravilhas gélidas e misteriosas dessa região remota e deslumbrante.",
@@ -117,7 +117,7 @@
       "createdAt": "2023-03-15T11:45:00Z",
       "updatedAt": null,
       "description": "Explore os destroços de um naufrágio e descubra segredos do passado.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Naufrágio Misterioso: Desvendando Segredos do Passado",
         "Em meio às águas profundas e misteriosas, encontra-se um cenário de mistério e descoberta: o 'Naufrágio Misterioso'. Essa aventura submarina promete levar os intrépidos exploradores a uma jornada única, explorando os destroços de uma embarcação perdida e desvendando os segredos que o oceano guarda com tanto zelo.",
@@ -138,7 +138,7 @@
       "createdAt": "2023-04-01T09:15:00Z",
       "updatedAt": null,
       "description": "Supere os desafios da selva tropical, enfrentando fauna e flora exuberantes.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Ao adentrar na selva tropical, um convite à coragem e à exploração se apresenta diante de cada aventureiro. Sob a densa vegetação, onde o verde das folhas se mistura com os sons vibrantes da fauna, desafios emocionantes aguardam aqueles dispostos a desbravar o coração exuberante da natureza.",
         "Encarando a Fauna Selvagem",
@@ -162,7 +162,7 @@
       "createdAt": "2023-04-15T14:30:00Z",
       "updatedAt": null,
       "description": "Aventure-se por cavernas subterrâneas e desvende mistérios enterrados nas profundezas.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Mistérios Subterrâneos: Desbravando o Mundo Oculto Sob a Terra",
         "Embrenhe-se nas profundezas da terra, onde o silêncio se mistura às sombras, e as cavernas subterrâneas revelam segredos há muito enterrados. Em 'Mistérios Subterrâneos', convidamos você a uma jornada corajosa pelo reino subterrâneo, onde a escuridão esconde histórias fascinantes e enigmas esperando para serem desvendados.",
@@ -183,7 +183,7 @@
       "createdAt": "2023-05-01T10:00:00Z",
       "updatedAt": null,
       "description": "Navegue por rios e oceanos, explorando a vida marinha e suas maravilhas.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Jornada Aquática: Descobrindo os Segredos Submersos",
         "Em uma fascinante Jornada Aquática, embarcamos em uma aventura pelos vastos rios e oceanos que banham nosso planeta, desvendando os mistérios ocultos sob a superfície serena das águas. Em cada onda que quebra, revela-se um mundo vasto e surpreendente, onde a vida marinha dança em harmonia, exibindo suas cores vibrantes e comportamentos únicos.",
@@ -204,7 +204,7 @@
       "createdAt": "2023-05-15T12:45:00Z",
       "updatedAt": null,
       "description": "Explore locais remotos à noite, guiado apenas pelo brilho das estrelas.",
-      "category": "aventura",
+      "category": "Aventura",
       "content": [
         "Caminho das Estrelas: Desvendando Mistérios Sob a Noite Cintilante",
         "Adentre o mágico 'Caminho das Estrelas', uma jornada fascinante que o conduzirá por locais remotos sob o manto escuro da noite, onde cada passo é guiado apenas pela cintilante luz das estrelas. Nessa aventura noturna, descubra os segredos ocultos e a beleza única que se revelam quando a terra se envolve na serenidade celestial.",
@@ -224,7 +224,7 @@
       "createdAt": "2023-02-01T10:30:00Z",
       "updatedAt": null,
       "description": "Descubra os encantos de destinos exóticos ao redor do mundo.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Explorando Novos Destinos",
         "Bem-vindo a uma jornada única e emocionante pelo desconhecido. Em 'Explorando Novos Destinos', convidamos você a desvendar os encantos de destinos exóticos que estão à espera de serem descobertos ao redor do mundo. Prepare-se para uma viagem repleta de surpresas, aventuras e experiências memoráveis.",
@@ -244,7 +244,7 @@
       "createdAt": "2023-02-15T12:45:00Z",
       "updatedAt": null,
       "description": "Percorra cidades antigas e mergulhe na rica história e cultura.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Cidades Históricas: Uma Jornada no Tempo e na Cultura",
         "Bem-vindo a uma emocionante viagem pelo passado, onde cada rua conta uma história e cada praça ecoa os suspiros de eras passadas. 'Cidades Históricas' convida você a explorar destinos enraizados na antiguidade, onde o charme arquitetônico e a riqueza cultural se entrelaçam em uma experiência fascinante.",
@@ -264,7 +264,7 @@
       "createdAt": "2023-03-01T08:30:00Z",
       "updatedAt": null,
       "description": "Explore a beleza e a espiritualidade das regiões orientais.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "A Magia do Oriente: Desvendando Belezas e Espiritualidade",
         "Bem-vindo a uma jornada extraordinária, onde cada passo revela a magia que reside nas regiões orientais do nosso vasto planeta. 'A Magia do Oriente' convida você a explorar não apenas paisagens deslumbrantes, mas também a profunda espiritualidade que permeia essa parte enigmática do mundo.",
@@ -285,7 +285,7 @@
       "createdAt": "2023-03-15T11:45:00Z",
       "updatedAt": null,
       "description": "Aventure-se por destinos menos explorados e descubra maravilhas escondidas.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Embarque em uma jornada fascinante através de destinos menos trilhados, onde cada passo é uma promessa de descobertas extraordinárias. 'Rumo ao Desconhecido' é mais do que uma simples viagem; é uma ousada aventura que desafia as fronteiras convencionais e abre portas para maravilhas escondidas.",
         "Sinta a empolgação pulsante ao se aventurar por terras inexploradas, onde a paisagem é uma tela em branco pronta para ser preenchida com suas próprias histórias. Desvende mistérios ocultos em cada recanto, deixando para trás as trilhas comuns para mergulhar em um universo de surpresas autênticas.",
@@ -305,7 +305,7 @@
       "createdAt": "2023-04-01T09:15:00Z",
       "updatedAt": null,
       "description": "Contemple paisagens que parecem saídas de sonhos, repletas de beleza única.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Paisagens Surreais: Uma Viagem aos Sonhos",
         "Bem-vindo a um mundo onde a realidade se entrelaça com a fantasia, e cada cena parece ter emergido diretamente dos cantos mais encantadores de nossos sonhos. 'Paisagens Surreais' é uma jornada visual por lugares que desafiam a imaginação, um convite para contemplar a beleza singular que a natureza e a arquitetura podem criar quando se unem em perfeita harmonia.",
@@ -326,7 +326,7 @@
       "createdAt": "2023-04-15T14:30:00Z",
       "updatedAt": null,
       "description": "Explore destinos gastronômicos ao redor do mundo, mergulhando em sabores locais.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Rota dos Sabores: Uma Viagem Culinária ao Redor do Mundo",
         "Bem-vindo à 'Rota dos Sabores', uma jornada fascinante que nos levará por destinos gastronômicos únicos ao redor do mundo. Prepare-se para uma experiência sensorial inigualável, onde mergulharemos nas riquezas dos sabores locais que definem a identidade culinária de cada região visitada.",
@@ -347,7 +347,7 @@
       "createdAt": "2023-05-01T10:00:00Z",
       "updatedAt": null,
       "description": "Mergulhe em experiências únicas, explorando destinos com águas cristalinas.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Aventura Aquática: Descobrindo o Encanto das Águas Cristalinas",
         "Bem-vindo a uma jornada incomparável, onde o elemento aquático se torna o palco de experiências únicas e emocionantes. 'Aventura Aquática' é um convite para explorar destinos deslumbrantes, onde as águas cristalinas são o cenário perfeito para descobertas inesquecíveis.",
@@ -369,7 +369,7 @@
       "createdAt": "2023-05-15T12:45:00Z",
       "updatedAt": null,
       "description": "Immerja-se nas tradições e costumes únicos de diferentes culturas ao redor do globo.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Tradições Locais: Uma Jornada Cultural pelos Rituais Únicos do Mundo",
         "Embarque conosco em uma fascinante jornada cultural, onde mergulharemos de cabeça nas tradições e costumes singulares que permeiam diversas culturas ao redor do globo. Tradições Locais é mais do que uma mera exploração; é uma celebração da riqueza e da diversidade que tornam cada comunidade única.",
@@ -389,7 +389,7 @@
       "createdAt": "2023-06-01T08:00:00Z",
       "updatedAt": null,
       "description": "Explore a arquitetura e o estilo de vida das cidades mais modernas do mundo.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Cidades Modernas: Um Olhar Futurista sobre a Urbanidade",
         "Ao explorar as vibrantes metrópoles que moldam nosso mundo contemporâneo, somos transportados para uma jornada fascinante de inovação arquitetônica e estilo de vida urbano dinâmico. As 'Cidades Modernas' representam o epicentro da evolução, onde o concreto se entrelaça com a tecnologia para criar paisagens urbanas que desafiam as expectativas e definem a vanguarda do design e da funcionalidade.",
@@ -414,7 +414,7 @@
       "createdAt": "2023-06-15T10:30:00Z",
       "updatedAt": null,
       "description": "Relaxe em praias paradisíacas, descobrindo o charme dos destinos tropicais.",
-      "category": "viagem",
+      "category": "Viagem",
       "content": [
         "Paraísos Tropicais: Descobrindo o Encanto nas Praias Paradisíacas",
         "Bem-vindo a um mundo onde as águas cristalinas acariciam suavemente a areia dourada, e as palmeiras balançam ao ritmo da brisa tropical. Em 'Paraísos Tropicais,' convidamos você a embarcar em uma jornada de relaxamento e descoberta, explorando destinos exóticos que capturam a verdadeira essência do paraíso.",
@@ -436,7 +436,7 @@
       "createdAt": "2023-03-01T12:45:00Z",
       "updatedAt": null,
       "description": "As últimas novidades e avanços no mundo da tecnologia.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Inovações Tecnológicas: Desbravando o Futuro da Tecnologia",
         "Em um mundo dinâmico e constantemente em evolução, as 'Inovações Tecnológicas' são faróis que iluminam o caminho para o futuro. Neste fascinante mergulho pelo universo da tecnologia, exploramos as últimas novidades e avanços que moldam o nosso amanhã.",
@@ -458,12 +458,12 @@
       "userId": 1,
       "imageLarge": "../../assets/imgPosts/mobile.jpg",
       "imageSmall": "../../assets/imgPosts/mobile.jpg",
-      "title": "Inteligência Artificial no Cotidiano",
+      "title": "IA no Cotidiano",
       "readingTime": "12 minutos",
       "createdAt": "2023-03-15T11:45:00Z",
       "updatedAt": null,
       "description": "Explore como a inteligência artificial está transformando nossas vidas diárias.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Inteligência Artificial no Cotidiano",
         "A presença crescente da Inteligência Artificial (IA) tem se revelado uma revolução silenciosa, moldando discretamente nossas rotinas diárias e alterando a forma como interagimos com o mundo ao nosso redor. Em um cenário onde a inovação tecnológica avança a passos largos, a Inteligência Artificial emerge como uma força transformadora, encontrando seu lugar fundamental no coração das atividades cotidianas.",
@@ -490,7 +490,7 @@
       "createdAt": "2023-04-01T09:15:00Z",
       "updatedAt": null,
       "description": "Mergulhe em experiências incríveis com a tecnologia de realidade virtual.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Realidade Virtual Imersiva: Explorando Novos Mundos com Tecnologia Avançada",
         "Prepare-se para uma jornada única e emocionante com a incrível tecnologia de Realidade Virtual (RV). Em 'Realidade Virtual Imersiva', convidamos você a mergulhar profundamente em experiências extraordinárias que desafiam os limites da imaginação.",
@@ -516,7 +516,7 @@
       "createdAt": "2023-04-15T14:30:00Z",
       "updatedAt": null,
       "description": "Descubra como a tecnologia está revolucionando a área da saúde.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Avanços na Medicina: A Revolução Tecnológica na Saúde",
         "Nos últimos anos, testemunhamos uma transformação notável na área da saúde, impulsionada pelos incríveis avanços na tecnologia. O casamento entre a medicina e a inovação tecnológica está redefinindo os padrões e possibilitando avanços extraordinários que impactam diretamente o cuidado com a saúde.",
@@ -537,7 +537,7 @@
       "createdAt": "2023-05-01T10:00:00Z",
       "updatedAt": null,
       "description": "Explore como as tecnologias estão transformando nossas cidades em lugares mais eficientes.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Cidades Inteligentes: Transformando o Futuro Urbano",
         "Em um mundo impulsionado pela inovação tecnológica, as cidades assumem um papel crucial na vanguarda da transformação. O advento das Cidades Inteligentes representa um marco significativo na jornada para tornar nossos centros urbanos mais eficientes, sustentáveis e conectados do que nunca.",
@@ -565,7 +565,7 @@
       "createdAt": "2023-05-15T12:45:00Z",
       "updatedAt": null,
       "description": "Saiba como proteger sua vida digital em um mundo cada vez mais conectado.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Segurança Digital: Protegendo seu Espaço Virtual",
         "Vivemos em uma era de conectividade constante, onde nossas vidas pessoais e profissionais estão intrinsecamente entrelaçadas com o mundo digital. Nesse cenário, a segurança digital torna-se uma prioridade inquestionável. Este artigo explora estratégias e boas práticas para proteger sua vida digital em um ambiente cada vez mais interconectado.",
@@ -592,7 +592,7 @@
       "createdAt": "2023-06-01T08:00:00Z",
       "updatedAt": null,
       "description": "Exploração das novas tecnologias que estão moldando o futuro da energia.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Futuro da Energia: Desbravando Caminhos Inovadores para um Amanhã Sustentável",
         "Em um mundo em constante evolução, a busca por fontes de energia mais eficientes e sustentáveis torna-se uma jornada incessante. O título 'Futuro da Energia' abre as portas para uma exploração fascinante das novas tecnologias que estão esculpindo o panorama energético do amanhã.",
@@ -615,12 +615,12 @@
       "userId": 1,
       "imageLarge": "../../assets/imgPosts/mobile_dispositives.jpg",
       "imageSmall": "../../assets/imgPosts/mobile_dispositives.jpg",
-      "title": "Inovação em Dispositivos Móveis",
+      "title": "Inovação em dispositivos",
       "readingTime": "22 minutos",
       "createdAt": "2023-06-15T10:30:00Z",
       "updatedAt": null,
       "description": "Descubra as últimas inovações em dispositivos móveis que estão redefinindo o mercado.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Inovação em Dispositivos Móveis: Redefinindo a Experiência Tecnológica",
         "Na era da constante evolução tecnológica, a busca por inovações em dispositivos móveis continua a surpreender, moldando nosso modo de interagir com a tecnologia. Explore conosco as últimas e mais emocionantes inovações que estão redefinindo o mercado de dispositivos móveis, elevando a experiência dos usuários a patamares inimagináveis.",
@@ -647,7 +647,7 @@
       "createdAt": "2023-07-01T09:45:00Z",
       "updatedAt": null,
       "description": "Explore os avanços recentes na robótica, impulsionando a automação e a eficiência.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Robótica Avançada: Rumo ao Futuro da Automação e Eficiência",
         "Seja bem-vindo a uma jornada fascinante pelo mundo da robótica avançada, onde os limites da automação e eficiência são constantemente desafiados e redefinidos. Neste artigo, mergulharemos nos avanços mais recentes dessa tecnologia revolucionária que está moldando o nosso presente e pavimentando o caminho para um futuro mais eficiente e conectado.",
@@ -674,7 +674,7 @@
       "createdAt": "2023-07-15T11:00:00Z",
       "updatedAt": null,
       "description": "Visão sobre como a próxima geração de internet transformará nossa conectividade.",
-      "category": "tecnologia",
+      "category": "Tecnologia",
       "content": [
         "Internet do Futuro: Moldando a Próxima Era da Conectividade",
         "A constante evolução da tecnologia nos leva a antecipar e vislumbrar o que o futuro nos reserva, e a 'Internet do Futuro' emerge como uma promessa fascinante para transformar radicalmente nossa experiência de conectividade. Neste olhar adiante, exploraremos as tendências e inovações que definirão a próxima geração da internet, desencadeando um impacto profundo em como nos conectamos, comunicamos e interagimos digitalmente.",
@@ -695,7 +695,7 @@
       "createdAt": "2023-04-01T15:15:00Z",
       "updatedAt": null,
       "description": "Viaje pelos sabores e aromas de diferentes cozinhas ao redor do globo.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Culinária do Mundo: Uma Jornada de Sabores Globais",
         "Bem-vindo a 'Culinária do Mundo', uma emocionante jornada gastronômica que promete levar você a uma viagem sensorial pelos sabores e aromas únicos de diferentes cozinhas ao redor do globo. Prepare-se para explorar uma rica tapeçaria culinária, onde cada prato conta a história de uma cultura, e cada sabor é uma expressão autêntica de tradições alimentares milenares.",
@@ -715,7 +715,7 @@
       "createdAt": "2023-04-15T14:30:00Z",
       "updatedAt": null,
       "description": "Explore os sabores únicos da culinária mediterrânea, repleta de ingredientes frescos.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Delícias Mediterrâneas: Uma Viagem Gastronômica aos Sabores do Mediterrâneo",
         "Embarque em uma jornada culinária exuberante com nosso tema 'Delícias Mediterrâneas', uma ode aos encantadores sabores da região que banha as costas de países como Itália, Grécia e Espanha. Nessa experiência gastronômica única, convidamos você a explorar a riqueza e a autenticidade dos pratos mediterrâneos, caracterizados por uma fusão equilibrada de ingredientes frescos e sabores intensos.",
@@ -740,7 +740,7 @@
       "createdAt": "2023-05-01T10:00:00Z",
       "updatedAt": null,
       "description": "Descubra os segredos das especiarias e aromas da culinária oriental.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Sabor do Oriente: Uma Jornada Culinária pelos Segredos das Especiarias e Aromas Orientais",
         "Bem-vindo a uma experiência gastronômica única, onde cada prato é uma jornada de descobertas pelos segredos das especiarias e aromas da culinária oriental. 'Sabor do Oriente' é mais do que uma simples refeição; é uma viagem sensorial que cativa seus sentidos desde o primeiro aroma até o último toque de sabor.",
@@ -766,7 +766,7 @@
       "createdAt": "2023-05-15T12:45:00Z",
       "updatedAt": null,
       "description": "Mergulhe na riqueza de pratos tradicionais que contam histórias de diferentes culturas.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Culinária Tradicional: Uma Viagem de Sabores e Histórias",
         "Bem-vindo a um universo de experiências culinárias autênticas, onde cada prato é um capítulo que conta a história rica e diversificada de diversas culturas ao redor do mundo. Ao mergulhar na culinária tradicional, exploramos mais do que simplesmente sabores - viajamos no tempo, conectando-nos às tradições passadas de comunidades distantes.",
@@ -792,7 +792,7 @@
       "createdAt": "2023-06-01T08:00:00Z",
       "updatedAt": null,
       "description": "Explore sobremesas irresistíveis que conquistarão seu paladar.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Doce Tentação: Uma Jornada de Sabores Irresistíveis",
         "Bem-vindo a 'Doce Tentação', uma experiência culinária que promete levar você a um universo encantador de sobremesas irresistíveis. Prepare-se para uma jornada de descobertas que conquistarão o seu paladar e despertarão a paixão pelos doces mais exquisitos.",
@@ -813,7 +813,7 @@
       "createdAt": "2023-06-15T10:30:00Z",
       "updatedAt": null,
       "description": "Experimente ingredientes e pratos exóticos que desafiam o seu paladar.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Sabores Exóticos: Uma Jornada Culinária Além do Comum",
         "Em 'Sabores Exóticos', convidamos você a embarcar em uma fascinante jornada culinária, explorando ingredientes e pratos que transcendem as fronteiras do convencional. Prepare-se para uma experiência sensorial única, onde cada mordida é um convite para desafiar e encantar o seu paladar.",
@@ -834,7 +834,7 @@
       "createdAt": "2023-07-01T09:45:00Z",
       "updatedAt": null,
       "description": "Descubra a magia da fusão de diferentes culinárias, criando pratos únicos.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Gastronomia Fusion: A Alquimia de Sabores Inesquecíveis",
         "Se aventurar pela Gastronomia Fusion é embarcar em uma jornada culinária única, onde tradições de diferentes partes do mundo se encontram em um festim para os sentidos. Este estilo culinário é uma verdadeira alquimia de sabores, uma experiência onde chefs habilidosos transformam ingredientes distintos em pratos extraordinários.",
@@ -854,7 +854,7 @@
       "createdAt": "2023-07-15T11:00:00Z",
       "updatedAt": null,
       "description": "Explore as delícias únicas das especialidades culinárias de diferentes regiões.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Especialidades Locais: Uma Jornada Gastronômica pelos Sabores Autênticos do Mundo",
         "Bem-vindo a 'Especialidades Locais', uma experiência culinária que o levará a uma jornada fascinante pelos sabores autênticos de diversas regiões ao redor do mundo. Prepare-se para explorar as delícias únicas que cada localidade tem a oferecer, mergulhando em um festim de tradições gastronômicas e ingredientes distintos.",
@@ -875,7 +875,7 @@
       "createdAt": "2023-08-01T12:00:00Z",
       "updatedAt": null,
       "description": "Descubra a história e os sabores do café ao redor do mundo.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Jornada do Café",
         "Bem-vindo à fascinante 'Jornada do Café', uma experiência sensorial que o levará por uma viagem cativante pelos segredos, histórias e sabores dessa bebida amada ao redor do globo. O café, além de ser uma deliciosa bebida energizante, é uma tradição cultural que uniu comunidades e despertou paixões ao longo dos séculos.",
@@ -902,7 +902,7 @@
       "createdAt": "2023-08-15T13:30:00Z",
       "updatedAt": null,
       "description": "Explore pratos vegetarianos sofisticados que encantam até os paladares mais exigentes.",
-      "category": "gastronomia",
+      "category": "Gastronomia",
       "content": [
         "Vegetarianismo Gourmet: Uma Jornada Culinária Sofisticada",
         "Seja bem-vindo à experiência culinária do 'Vegetarianismo Gourmet', um mergulho delicioso no mundo da alta gastronomia vegetariana. Nesta jornada gastronômica, desvendaremos pratos excepcionais que não apenas satisfazem as necessidades nutricionais, mas também elevam a arte da culinária vegetariana a um patamar de sofisticação e sabor refinado.",

@@ -1,3 +1,7 @@
+.container-posts {
+  margin-top: 96px;
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -24,6 +28,7 @@ li {
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .active {
@@ -34,13 +39,13 @@ a {
   border: 0;
 }
 
-.card-box {
-  margin-top: 8px;
-}
-
 .card-img {
   width: 312px;
   height: 208px;
+}
+
+.post-body {
+  margin-top: 8px;
 }
 
 .card-text {
@@ -63,7 +68,4 @@ a {
   font-size: 12px;
 }
 
-.card-link {
-  text-decoration: none;
-  cursor: pointer;
-}
+
