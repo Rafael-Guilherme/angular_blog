@@ -2,8 +2,8 @@
   <h1>Todos os posts</h1>
     <ul>
       <div class="list-topics">
-        <li [class.active]="activeCategory === 'Todas'">
-          <a (click)="filterByCategory('Todas')">Todas</a>
+        <li [class.active]="activeCategory === 'Todos'">
+          <a (click)="filterByCategory('Todos')">Todos</a>
         </li>
         <li *ngFor="let category of uniqueCategories()" [class.active]="activeCategory === category">
           <a (click)="filterByCategory(category)">{{category}}</a>
@@ -14,7 +14,7 @@
     <div class="col" *ngFor="let post of posts">
       <div class="card card-container">
         <img
-          [src]="post.imageSmall"
+          [src]="post.imageLarge"
           class="card-img"
           alt={{post.title}}
           loading="lazy"
@@ -32,3 +32,4 @@
     </div>
   </div>
 </div>
+<app-footer></app-footer>

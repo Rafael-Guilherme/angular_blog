@@ -1,21 +1,22 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
-import postsData from '../../data/posts/posts.json';
-import { Post } from '../../interface/post.interface';
 import { DateService } from '../../service/date.service';
+import { FooterComponent } from '../footer/footer.component';
+import { Post } from '../../interface/post.interface';
+import postsData from '../../data/posts/posts.json';
 
 @Component({
   selector: 'app-post',
   standalone: true,
-  imports: [NgFor, RouterLink],
+  imports: [NgFor, RouterLink, FooterComponent],
   templateUrl: './post.component.html',
   styleUrl: './post.component.css'
 })
 export class PostComponent {
   allPosts: Post[] = postsData.posts
   posts: Post[] = this.allPosts
-  activeCategory: string = 'Todas';
+  activeCategory: string = '';
 
   constructor(private router: Router, private dateService: DateService) {}
 
@@ -24,7 +25,7 @@ export class PostComponent {
   }
 
   filterByCategory(category: string): void {
-    if (category === 'Todas') {
+    if (category === 'Todos') {
       this.posts = this.allPosts
     } else {
       this.posts = this.allPosts.filter(post => post.category === category)

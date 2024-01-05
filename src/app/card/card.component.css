@@ -18,12 +18,14 @@ li {
   font-weight: bold;
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
 a {
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .active {
@@ -38,10 +40,10 @@ a {
   margin-top: 8px;
 }
 
-.card-img {
+/* .card-img {
   width: 312px;
   height: 208px;
-}
+} */
 
 .card-text {
   display: -webkit-box;

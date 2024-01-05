@@ -5,24 +5,26 @@
       @for(slide of slides; track slide.id) {
         <c-carousel-item>
           <img
+            class="img-opacity"
             [src]="isSmallScreen() ? slide.imageSmall : slide.imageLarge"
             alt="{{slide.title}}"
             loading="lazy"
           />
           <c-carousel-caption class="d-none d-md-block text-start custom-height">
-            <button type="button" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Javascript">
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="top">
               {{slide.category}}
             </button>
             <h3>{{slide.title}}</h3>
-            <div class="d-flex">
-              <p class="me-2">Data -</p>
+            <div class="d-flex flex-md-column">
+              <p class="me-2">{{getDateService().formatCreatedAt(slide.createdAt)}}</p>
               <p>{{slide.description}}</p>
             </div>
+            <button type="button" class="btn btn-primary" [routerLink]="['/post-page', slide.id]">
+              Ler o post
+            </button>
           </c-carousel-caption>
         </c-carousel-item>
       }
     </c-carousel-inner>
-    <!-- <c-carousel-control caption="Previous" direction="prev"></c-carousel-control>
-    <c-carousel-control caption="Next" direction="next"></c-carousel-control> -->
   </c-carousel>
 </div>

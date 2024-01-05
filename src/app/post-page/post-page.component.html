@@ -5,9 +5,14 @@
     <p *ngFor="let content of posts[0].content">
       {{ content }}
     </p>
-    <div class="d-flex justify-content-between mt-5 mb-5">
-      <div>Usuário 1</div>
-      <div>{{getDateService().formatCreatedAt(posts[0].createdAt)}}</div>
+    <div *ngIf="posts[0].userId" class="d-flex justify-content-between mt-5 mb-5">
+      <div>
+        <div>
+          <b>{{ getUserName(posts[0].userId)?.name }}</b>
+        </div>
+        <div>{{ getUserName(posts[0].userId)?.username }}</div>
+      </div>
+      <div>{{ getDateService().formatCreatedAt(posts[0].createdAt) }}</div>
     </div>
   </div>
  </div>
@@ -15,3 +20,4 @@
  <ng-template #noPosts>
   <p>No posts available.</p>
  </ng-template>
+ <app-footer></app-footer>

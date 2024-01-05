@@ -11,7 +11,7 @@ export const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'post',
+    path: 'posts',
     component: PostComponent
   },
   {

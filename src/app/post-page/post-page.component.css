@@ -4,4 +4,8 @@
 
 .img-post {
   width: 70vw;
+
+  @media (max-width: 768px) {
+    width: 90vw;
+  }
 }

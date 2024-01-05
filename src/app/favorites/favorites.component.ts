@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { DateService } from '../../service/date.service';
 import { Post } from '../../interface/post.interface';
 import postsData from '../../data/posts/posts.json'
@@ -8,7 +8,7 @@ import postsData from '../../data/posts/posts.json'
 @Component({
   selector: 'app-favorites',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './favorites.component.html',
   styleUrl: './favorites.component.css'
 })

@@ -1,19 +1,24 @@
-<h1>Popular topics</h1>
+<h1>Tópicos Populares</h1>
   <ul>
     <div class="list-topics">
-      <li [class.active]="activeCategory === 'Todas'">
-        <a (click)="filterByCategory('Todas')">Todas</a>
+      <li [class.active]="activeCategory === 'Destaque'">
+        <a (click)="filterByCategory('Destaque')">Destaque</a>
       </li>
       <li *ngFor="let category of uniqueCategories()" [class.active]="activeCategory === category">
         <a (click)="filterByCategory(category)">{{category}}</a>
       </li>
     </div>
+    <li class="m-0">
+      <a href="/posts">
+        Ver todos
+      </a>
+    </li>
   </ul>
 <div class="row row-cols-1 row-cols-md-4 g-3">
   <div class="col" *ngFor="let card of cards">
     <div class="card card-container">
       <img
-        [src]="card.imageSmall"
+        [src]="card.imageLarge"
         class="card-img"
         alt={{card.title}}
         loading="lazy"

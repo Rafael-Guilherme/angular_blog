@@ -1,0 +1,12 @@
+section {
+  margin-top: 96px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  max-width: 80vw;
+}

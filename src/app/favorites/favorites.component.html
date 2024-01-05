@@ -1,11 +1,11 @@
 <section class="container">
   <h2>
-    Editor's Pick
+    Escolhas do editor
   </h2>
   <div class="row row-cols-1 row-cols-md-3 g-3">
     <div class="col" *ngFor="let post of posts">
       <div class="card card-container">
-        <img [src]="post.imageSmall" class="card-img" alt={{post.title}}>
+        <img [src]="post.imageLarge" class="card-img" alt={{post.title}}>
         <div class="card-img-overlay">
           <div class="tag">
             <button type="button" class="btn btn-light button-text">{{post.category}}</button>
@@ -13,6 +13,9 @@
           <div class="card-body">
             <p class="card-date">{{getDateService().formatCreatedAt(post.createdAt)}}</p>
             <h5 class="card-title">{{post.title}}</h5>
+            <button type="button" class="btn btn-primary" [routerLink]="['/post-page', post.id]">
+              Ler o post
+            </button>
           </div>
         </div>
       </div>

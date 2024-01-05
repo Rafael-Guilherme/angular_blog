@@ -1,29 +1,33 @@
 <div class="col-12">
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid justify-content-between">
-        <a class="navbar-brand ms-3" routerLink="/">
-          <b class="text-white">
-            <b class="fs-2">
-              My
-            </b>
+      <a class="navbar-brand ms-3" routerLink="/">
+        <b class="text-white">
+          <b class="fs-2">
+            My
           </b>
-          <span><b class="text-primary fs-2">Blog</b></span>
-        </a>
+        </b>
+        <span><b class="text-primary fs-2">Blog</b></span>
+      </a>
 
-      <div class="d-flex justify-content-end" id="navbarNav">
-        <ul class="d-flex-lg navbar-nav mb-lg-0 ms">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-lg-3 mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link ms-3 text-white" [ngClass]="{'active': isLinkActive('/')}" ariaCurrentWhenActive="page" routerLink="/">
+            <a class="nav-link text-white" [ngClass]="{'active': isLinkActive('/')}" ariaCurrentWhenActive="page" routerLink="/">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ms-3 text-white" [ngClass]="{'active': isLinkActive('/post')}" ariaCurrentWhenActive="page" routerLink="/post">
+            <a class="nav-link text-white" [ngClass]="{'active': isLinkActive('/post')}" ariaCurrentWhenActive="page" routerLink="/posts">
               Posts
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ms-3 text-white" [ngClass]="{'active': isLinkActive('/about')}" ariaCurrentWhenActive="page" routerLink="/about">
+            <a class="nav-link text-white" [ngClass]="{'active': isLinkActive('/about')}" ariaCurrentWhenActive="page" routerLink="/about">
               About
             </a>
           </li>

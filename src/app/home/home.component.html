@@ -6,14 +6,17 @@
 <section class="container">
   <app-card></app-card>
 </section>
-<section *ngIf="randomPost" class="img-container" [style.background-image]="'url(' + randomPost?.imageLarge + ')'">
+<section *ngIf="randomPost" class="img-container" [style.background-image]="'url(' + randomPost.imageLarge + ')'">
   <div>
-    <button type="button" class="btn btn-outline-light button-text">{{randomPost?.category}}</button>
+    <button type="button" class="btn btn-light button-text">{{randomPost.category}}</button>
   </div>
-  <div >
-    <h2 class="img-title">{{randomPost?.title}}</h2>
-    <p class="img-description">{{randomPost?.description}}</p>
-    <p class="img-data">{{getDateService()?.formatCreatedAt(randomPost?.createdAt ?? '')}}</p>
+  <div>
+    <h2 class="img-title">{{randomPost.title}}</h2>
+    <p class="img-description">{{randomPost.description}}</p>
+    <p class="img-data">{{getDateService().formatCreatedAt(randomPost.createdAt)}}</p>
+    <button type="button" class="btn btn-primary" [routerLink]="['/post-page', randomPost.id]">
+      Ler o post
+    </button>
   </div>
 </section>
 <app-favorites></app-favorites>

@@ -23,11 +23,13 @@ section {
   font-size: 48px;
   font-weight: bold;
   margin: 24px 0 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .img-description {
   font-size: 16px;
   margin-bottom: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .img-data {
