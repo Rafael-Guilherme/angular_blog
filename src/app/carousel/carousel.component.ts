@@ -1,6 +1,7 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
 import { CarouselModule } from '@coreui/angular';
+import { Post } from '../../interface/post.interface';
 import postsData from '../../data/posts/posts.json'
 
 @Component({
@@ -11,7 +12,7 @@ import postsData from '../../data/posts/posts.json'
   styleUrl: './carousel.component.css'
 })
 export class CarouselComponent {
-  slides: any[] = this.randomSlides().slice(0, 3);
+  slides: Post[] = this.randomSlides().slice(0, 3);
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
@@ -22,8 +23,8 @@ export class CarouselComponent {
     return false;
   }
 
-  randomSlides(): any[] {
-    const shuffledSlides = [...postsData.posts]; // Cria uma cópia do array original
+  randomSlides(): Post[] {
+    const shuffledSlides = [...postsData.posts];
     for (let i = shuffledSlides.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [shuffledSlides[i], shuffledSlides[j]] = [shuffledSlides[j], shuffledSlides[i]];

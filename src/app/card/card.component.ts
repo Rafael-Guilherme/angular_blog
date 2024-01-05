@@ -2,6 +2,7 @@ import { NgFor } from '@angular/common'
 import { Component } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { DateService } from '../../service/date.service';
+import { Post } from '../../interface/post.interface';
 import postsData from '../../data/posts/posts.json'
 
 @Component({
@@ -12,8 +13,8 @@ import postsData from '../../data/posts/posts.json'
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-  allCards: any[] = postsData.posts;
-  cards: any[] = this.allCards;
+  allCards: Post[] = postsData.posts;
+  cards: Post[] = this.allCards;
   activeCategory: string = 'Todas';
 
   constructor(private router: Router, private dateService: DateService) {}

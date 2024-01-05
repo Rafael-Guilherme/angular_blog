@@ -6,15 +6,14 @@
 <section class="container">
   <app-card></app-card>
 </section>
-<section class="img-container">
+<section *ngIf="randomPost" class="img-container" [style.background-image]="'url(' + randomPost?.imageLarge + ')'">
   <div>
-    <button type="button" class="btn btn-outline-light button-text">Angular</button>
+    <button type="button" class="btn btn-outline-light button-text">{{randomPost?.category}}</button>
   </div>
-  <div>
-    <h2 class="img-title">Card title</h2>
-    <p class="img-description">Some quick example text to build on the card title and make up the bulk of the card's
-      content.</p>
-    <p class="img-data">30.12.2023</p>
+  <div >
+    <h2 class="img-title">{{randomPost?.title}}</h2>
+    <p class="img-description">{{randomPost?.description}}</p>
+    <p class="img-data">{{getDateService()?.formatCreatedAt(randomPost?.createdAt ?? '')}}</p>
   </div>
 </section>
 <app-favorites></app-favorites>

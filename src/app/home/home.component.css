@@ -4,7 +4,6 @@ section {
 }
 
 .img-container {
-  background-image: url('../../assets/img/react.jpg');
   background-size: cover;
   height: 560px;
   display: flex;

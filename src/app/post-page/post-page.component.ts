@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common'
 import { ActivatedRoute } from '@angular/router';
 import postsData from '../../data/posts/posts.json';
+import { Post } from '../../interface/post.interface';
 import { DateService } from '../../service/date.service';
 
 @Component({
@@ -13,7 +14,7 @@ import { DateService } from '../../service/date.service';
 })
 export class PostPageComponent {
   postId: string | null = null;
-  posts: any[] = [];
+  posts: Post[] = [];
 
   constructor(private route: ActivatedRoute, private dateService: DateService) {}
 
