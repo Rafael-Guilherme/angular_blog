@@ -759,8 +759,8 @@
     {
       "id": 34,
       "userId": 3,
-      "imageLarge": "../../assets/imgPosts/4_large.jpg",
-      "imageSmall": "../../assets/imgPosts/4_small.jpg",
+      "imageLarge": "../../assets/imgPosts/tradicional_food.jpg",
+      "imageSmall": "../../assets/imgPosts/tradicional_food.jpg",
       "title": "Culinária Tradicional",
       "readingTime": "20 minutos",
       "createdAt": "2023-05-15T12:45:00Z",
