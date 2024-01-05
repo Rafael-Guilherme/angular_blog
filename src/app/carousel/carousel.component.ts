@@ -1,51 +1,19 @@
-import { CommonModule, NgFor, isPlatformBrowser } from '@angular/common';
-import { Component, HostListener, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
 import { CarouselModule } from '@coreui/angular';
-import { SlidesService } from '../slides.service';
+import postsData from '../../data/posts/posts.json'
 
 @Component({
   selector: 'app-carousel',
   standalone: true,
-  imports: [CarouselModule, CommonModule, NgFor],
+  imports: [CarouselModule, CommonModule],
   templateUrl: './carousel.component.html',
   styleUrl: './carousel.component.css'
 })
-export class CarouselComponent implements OnInit {
-  slides: any[] = [
-    {
-      id: 1,
-      src: '../assets/img/angular.jpg',
-      srcSmall: '../assets/img/convite.png',
-      title: 'Angular Slide',
-      subtitle: 'A powerful front-end framework',
-      category: 'Javascript'
-    },
-    {
-      id: 2,
-      src: '../assets/img/react.jpg',
-      srcSmall: '../assets/img/imagem.jpg',
-      title: 'React Slide',
-      subtitle: 'A declarative and efficient UI library',
-      category: 'Javascript'
-    },
-    {
-      id: 3,
-      src: '../assets/img/vue.jpg',
-      srcSmall: '../assets/img/convite.png',
-      title: 'Vue Slide',
-      subtitle: 'A progressive JavaScript framework',
-      category: 'Javascript'
-    }
-  ];
+export class CarouselComponent {
+  slides: any[] = this.randomSlides().slice(0, 3);
 
-
-  constructor(@Inject(PLATFORM_ID) private platformId: Object, private slidesService: SlidesService) {}
-
-  ngOnInit(): void {
-    this.slidesService.getSlides().subscribe(data => {
-      this.slides = this.randomSlides();
-    });
-  }
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
   isSmallScreen(): boolean {
     if (isPlatformBrowser(this.platformId)) {
@@ -55,15 +23,13 @@ export class CarouselComponent implements OnInit {
   }
 
   randomSlides(): any[] {
-    const randomIndices: number[] = [];
-    while (randomIndices.length < 3) {
-      const index = Math.floor(Math.random() * this.slides.length);
-      if (!randomIndices.includes(index)) {
-        randomIndices.push(index);
-      }
+    const shuffledSlides = [...postsData.posts]; // Cria uma cópia do array original
+    for (let i = shuffledSlides.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledSlides[i], shuffledSlides[j]] = [shuffledSlides[j], shuffledSlides[i]];
     }
-    return randomIndices.map(i => this.slides[i]);
-   }
+    return shuffledSlides;
+  }
 
   @HostListener('window:resize', ['$event'])
   onResize(event: Event): void {

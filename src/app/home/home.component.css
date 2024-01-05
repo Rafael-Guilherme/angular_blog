@@ -3,38 +3,6 @@ section {
   margin-bottom: 96px;
 }
 
-ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 32px 0 24px;
-  padding-left: 0;
-}
-
-.list-topics {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-li {
-  list-style: none;
-  margin-right: 16px;
-  font-size: 14px;
-  font-weight: bold;
-
-  @media (max-width: 768px) {
-    font-size: 12px;
-  }
-}
-
-a {
-  cursor: pointer;
-}
-
-.active {
-  color: orange;
-}
-
 .img-container {
   background-image: url('../../assets/img/react.jpg');
   background-size: cover;
