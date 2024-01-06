@@ -10,25 +10,25 @@
         <span><b class="text-primary fs-2">Blog</b></span>
       </a>
 
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
 
-      <div class="navbar-collapse collapse" id="navbarScroll">
-        <ul class="navbar-nav ms-lg-3 mb-2 mb-lg-0">
+      <div>
+        <ul class="d-flex align-items-center justify-content-around">
           <li class="nav-item">
             <a class="nav-link text-white" [ngClass]="{'active': isLinkActive('/')}" ariaCurrentWhenActive="page" routerLink="/">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" [ngClass]="{'active': isLinkActive('/post')}" ariaCurrentWhenActive="page" routerLink="/posts">
+            <a class="nav-link text-white mx-4" [ngClass]="{'active': isLinkActive('/posts')}" ariaCurrentWhenActive="page" routerLink="/posts">
               Posts
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" [ngClass]="{'active': isLinkActive('/about')}" ariaCurrentWhenActive="page" routerLink="/about">
-              About
+              Sobre
             </a>
           </li>
         </ul>

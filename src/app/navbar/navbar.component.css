@@ -9,6 +9,14 @@ nav {
   }
 }
 
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
 a {
   cursor: pointer;
 }
