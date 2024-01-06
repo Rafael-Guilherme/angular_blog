@@ -1,5 +1,5 @@
-import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 import { CarouselModule } from '@coreui/angular';
 import { RouterLink } from '@angular/router';
 import { Post } from '../../interface/post.interface';
@@ -16,14 +16,7 @@ import { DateService } from '../../service/date.service';
 export class CarouselComponent {
   slides: Post[] = this.randomSlides().slice(0, 3);
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object, private dateService: DateService) {}
-
-  isSmallScreen(): boolean {
-    if (isPlatformBrowser(this.platformId)) {
-      return window.innerWidth <= 768;
-    }
-    return false;
-  }
+  constructor(private dateService: DateService) {}
 
   randomSlides(): Post[] {
     const shuffledSlides = [...postsData.posts];
@@ -36,14 +29,5 @@ export class CarouselComponent {
 
   getDateService(): DateService {
     return this.dateService;
-  }
-
-  @HostListener('window:resize', ['$event'])
-  onResize(event: Event): void {
-    console.log('Window resize', event);
-  }
-
-  onItemChange($event: any): void {
-    console.log('Carousel onItemChange', $event);
   }
 }
