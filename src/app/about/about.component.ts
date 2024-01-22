@@ -9,5 +9,9 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+  unencodedText: string;
 
+  constructor() {
+    this.unencodedText = encodeURIComponent('Olá! Eu vi o seu portfólio ou projeto e gostaria de entrar em contato!');
+  }
 }

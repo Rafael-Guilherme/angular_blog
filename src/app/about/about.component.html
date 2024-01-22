@@ -1,24 +1,26 @@
-<section class="container d-flex flex-column align-items-center justify-content-center">
-  <h1 class="mb-5">Sobre mim</h1>
+<section class="container principal d-flex flex-column align-items-center justify-content-center">
+  <h1 class="my-5">Sobre mim</h1>
 
   <div class="content">
     <h4 class="text-center">Eu me chamo Rafael de Freitas Guilherme</h4>
     <h5 class="text-center">Criei esse front-end em Angular.</h5>
-    <p>Eu sou um desenvolvedor web,
-      atuo como freelancer desde dezembro/2022.
-      Sempre prezando por fazer um bom trabalho e entregando o melhor dentro dos prazos, metas e objetivos esperados.
-      Caso queira entrar em contato, pode escolher a melhor forma para você abaixo.
-    </p>
+    <div class="mt-5">
+      <p>Eu sou um desenvolvedor web,
+        atuo como freelancer desde dezembro/2022.
+        Sempre prezando por fazer um bom trabalho e entregando o melhor dentro dos prazos, metas e objetivos esperados.
+        Caso queira entrar em contato, pode escolher a melhor forma para você abaixo.
+      </p>
+    </div>
   </div>
-  <div class="d-flex align-items-center justify-content-center mb-5">
+  <div class="d-flex align-items-center justify-content-center my-5">
     <button class="btn btn-light">
-      <a href="mailto:rafael_guilherme@hotmail.com">E-mail</a>
+      <a href="mailto:rafael_guilherme@hotmail.com" target="_blank">E-mail</a>
     </button>
     <button class="btn btn-light mx-4">
-      <a href="#">Whatsapp</a>
+      <a [href]="'https://wa.me/+5521967711607/?text=' + unencodedText" target="_blank">Whatsapp</a>
     </button>
     <button class="btn btn-light">
-      <a href="#">Portfólio</a>
+      <a href="https://next-portfolio-sepia-tau.vercel.app/" target="_blank">Portfólio</a>
     </button>
   </div>
 </section>
